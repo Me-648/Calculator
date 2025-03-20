@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shafarik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>闇の電卓</title>
+</head>
+<body>
+  <div class="text">
+    <h2>電　卓</h2>
+    <p>計算結果間違ってるかも</p>
+    <p>※音が鳴ります</p>
+    <img src="img.png" alt="画像">
+  </div>
+  <table id="table">
+    <tr>
+      <th class="no-hover" colspan="4"><input type="text" id="result" disabled></th>
+    </tr>
+    <tr>
+      <th id="7" >7</th>
+      <th id="8" >8</th>
+      <th id="9" >9</th>
+      <th id="mod" >÷</th>
+    </tr>
+    <tr>
+      <th id="4" >4</th>
+      <th id="5" >5</th>
+      <th id="6" >6</th>
+      <th id="kakeru" >×</th>
+    </tr>
+    <tr>
+      <th id="1" >1</th>
+      <th id="2" >2</th>
+      <th id="3" >3</th>
+      <th id="hiku" >-</th>
+    </tr>
+    <tr>
+      <th id="clear" >C</th>
+      <th id="0" >0</th>
+      <th id="floor" >.</th>
+      <th id="pulase" >+</th>
+    </tr>
+    <tr>
+      <th id="ans" >=</th>
+    </tr>
+  </table>
+  
+  <script src="main.js"></script>
+</body>
+</html>
